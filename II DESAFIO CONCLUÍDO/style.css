@@ -1,0 +1,85 @@
+body{
+    background-color:#F37820 ;
+    background-image: url('img/INOVA.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: 720px;
+    height: 720px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.input-nome{
+    position: relative;
+}
+
+.input{
+    margin: 15px;
+    width: 500px;
+    border: solid 1.5px;
+    border-radius: 1rem;
+    background: none;
+    padding: 1rem;
+    font-size:1rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+.input:hover{
+    color: #F37820;
+}
+
+.user-label{
+    position: absolute;
+    left: 150px;
+    color: #ffffff;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms ease;
+}
+
+.input:focus ~ label, input:valid ~label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #F37820;
+    padding: 0.2em;
+}
+
+
+
+p{
+    padding-top: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #ffffff;
+ }
+
+.formulario {
+    
+    width: 747px;
+    height: 972px;
+    margin: 70px;
+    background: #ffa05b;
+    color: #000;
+    border-radius: 50px;
+    text-align: center;
+  }
+
+
+
+#Continue
+{
+    background-color: #feddca;
+    border: none;
+    color: #000000;
+    border-radius: 9px;
+    width: 530px;
+    height: 50px;
+    opacity: 80%;
+    margin-bottom: 10px;
+    transition: all ease-in-out 500ms;
+}
+#Continue:hover
+{
+    opacity: 100%;
+    background-color: #F37820;
+    color: white;
+}
